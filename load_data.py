@@ -53,4 +53,8 @@ axes[1].set_title("Actual vs. Predicted Annual Mean Temperature Anomaly")
 axes[1].legend()
 
 plt.tight_layout()  # prevents titles/labels from overlapping
+
+plt.savefig("output.png", dpi=150, bbox_inches="tight")
+plt.show()
+
 plt.show()
