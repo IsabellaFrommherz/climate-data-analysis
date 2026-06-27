@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 # --- 1. Load data ---
 # skiprows=1 because the first row of the CSV is just a title, not the header
 df = pd.read_csv(
-    "/Users/isabellafrommherz/PycharmProjects/climate-data-analysis/data:/GLB.Ts+dSST.csv",
+    "/Users/isabellafrommherz/PycharmProjects/climate-data-analysis/data/GLB.Ts+dSST.csv",
     skiprows=1
 )
 
